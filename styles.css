@@ -1,4 +1,6 @@
 body {
+    height: 100vh;
+    margin: 0;
     display: flex;
     flex-direction: column;
 }
@@ -19,6 +21,10 @@ ul {
 a {
     color: red;
     text-decoration: none;
+}
+
+footer {
+    margin-top: auto;
 }
 
 .img-container {
