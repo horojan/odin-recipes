@@ -1,12 +1,9 @@
 body {
     height: 100vh;
     margin: 0;
+    text-align: center;
     display: flex;
     flex-direction: column;
-}
-
-h1, h2, p {
-    text-align: center;
 }
 
 img {
@@ -16,6 +13,18 @@ img {
 
 ul {
     list-style: none;
+    padding: 0px;
+}
+
+ol {
+    padding: 0px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    margin: 5px;
 }
 
 a {
